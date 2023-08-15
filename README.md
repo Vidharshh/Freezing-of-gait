@@ -1,0 +1,5 @@
+This project involves the analysis of time series data collected from a single subject during experimental trials. The data includes measurements of physical quantities, annotations indicating trial intervals, and freezing of gait occurrences. The
+data is processed by extracting active experiment intervals and creating sliding windows of data. Machine learning models such as Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) neural networks, are trained on the sliding win- dow
+dataset to classify and predict annotations. Additionally, k-Nearest Neighbors (KNN) algorithm is applied to the raw text files for classification. The performances of all models are evaluated using various metrics, and the predicted annotations are compared to ground truth annotations. The implementation utilizes the TensorFlow library for LSTM and GRU models and traditional machine learning libraries for KNN algorithm.
+
+Dataset : https://drive.google.com/file/d/1Q1Ivu-aKD-8QU8Bs7jttyTC9eDWp0Ttx/view?usp=sharing
